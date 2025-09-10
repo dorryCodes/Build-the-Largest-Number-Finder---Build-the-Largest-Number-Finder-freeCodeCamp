@@ -1,5 +1,6 @@
 # Build-the-Largest-Number-Finder---Build-the-Largest-Number-Finder-freeCodeCamp
-//using arrays to create a new array consinsting of only the largest value from the main arrays
+/*using arrays to create a new array consinsting of only the largest value from the main arrays*/
+/*CODE STARTS HERE*/
 function largestOfAll(arrays){
 return arrays.map(array=>array.reduce((pln,cln)=>(cln>pln)? cln:pln))
 }
